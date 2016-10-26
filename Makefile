@@ -23,7 +23,7 @@ define Package/$(PKG_NAME)
         CATEGORY:=Cenditel
         SUBMENU:=Aplicaciones
         TITLE:=ginga.ar 2.3
-        DEPENDS:=+uclibcxx +make +cmake +cairo +pango +boost
+        DEPENDS:+uclibcxx +make +cmake +cairo +python +pango +boost +libxerces +libev +glib2 +lua +libcurl +lua +libboost-filesystem-dev +libboost-system-dev +libboost-thread-dev +libcurl4-openssl-dev +libev-dev +libexpat1-dev +libgdk-pixbuf2.0-dev +libglib2.0-dev +libgtk2.0-dev +libwebkitgtk-dev +libcairo2-dev +libvlc-dev +libvlccore-dev +luasocket-dev +libgtest-dev
 endef
 
 
